@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 360" role="img" aria-labelledby="title description">
+  <title id="title">Visit Shashemene</title>
+  <desc id="description">A sunset over the hills and city of Shashemene.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#102838"/>
+      <stop offset="1" stop-color="#d47a43"/>
+    </linearGradient>
+    <linearGradient id="shade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#07131c" stop-opacity=".82"/>
+      <stop offset=".58" stop-color="#07131c" stop-opacity=".38"/>
+      <stop offset="1" stop-color="#07131c" stop-opacity=".16"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="360" fill="url(#sky)"/>
+  <circle cx="1230" cy="112" r="68" fill="#ffd28a" opacity=".92"/>
+  <path d="M0 225 180 158l140 62 185-100 195 104 174-79 204 91 176-109 184 96 162-65v202H0z" fill="#345a4f"/>
+  <path d="m0 260 195-70 188 85 210-97 177 78 205-70 206 87 221-85 198 65v107H0z" fill="#203e3b"/>
+  <path d="M0 290h1600v70H0z" fill="#132a2c"/>
+  <g fill="#e6a76b" opacity=".78">
+    <rect x="920" y="228" width="38" height="48" rx="2"/>
+    <rect x="970" y="211" width="54" height="65" rx="2"/>
+    <rect x="1038" y="235" width="42" height="41" rx="2"/>
+    <rect x="1092" y="216" width="62" height="60" rx="2"/>
+    <rect x="1170" y="238" width="50" height="38" rx="2"/>
+    <rect x="1234" y="207" width="48" height="69" rx="2"/>
+    <rect x="1296" y="229" width="58" height="47" rx="2"/>
+  </g>
+  <rect width="1600" height="360" fill="url(#shade)"/>
+  <text x="800" y="321" text-anchor="middle" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700" letter-spacing="3">VISIT SHASHEMENE</text>
+</svg>

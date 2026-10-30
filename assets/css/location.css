@@ -141,3 +141,44 @@
     letter-spacing: 1px;
     font-weight: 300;
 }
+
+@media (max-width: 768px) {
+    .location-section {
+        padding: 120px 24px 40px;
+    }
+
+    .location-heading h1 {
+        font-size: clamp(2rem, 7vw, 3.25rem);
+    }
+
+    .location-detail h1 {
+        padding-top: 36px;
+        font-size: clamp(1.6rem, 5vw, 2.5rem);
+    }
+
+    .location-img img {
+        width: min(100%, 560px);
+        height: auto;
+        max-height: 400px;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 480px) {
+    .location-section {
+        padding: 116px 16px 32px;
+    }
+
+    .location-heading h1 {
+        font-size: 2rem;
+    }
+
+    .location-detail h1 {
+        font-size: 1.5rem;
+    }
+
+    .location-detail p,
+    .location-img p {
+        line-height: 1.7;
+    }
+}

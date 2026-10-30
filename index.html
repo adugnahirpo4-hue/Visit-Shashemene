@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adventour</title>
-    <link rel="icon" href="./assets/files/logo.png">
+    <title>Visit Shashemene</title>
+    <link rel="icon" href="./assets/files/ShasheLogoNew.png">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/reg.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,6 +19,7 @@
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script defer src="assets/js/script.js"></script>
 
 </head>
 
@@ -27,15 +28,20 @@
     <!-- Background Video & Header -->
 
     <div class="banner">
-        <video src="./assets/files/bgvid.mp4" type="video/mp4" autoplay muted loop></video>
+        <video src="./assets/files/Hero1st.mp4" type="video/mp4" autoplay muted loop playsinline></video>
 
         <!-- Header -->
         
 
         <div class="content" id="home">
             <nav>
-                <img src="./assets/files/logo.png" class="logo" alt="Logo" title="FirstFlight Travels">
-                <ul class="navbar">
+                <img  src="./assets/files/ShasheLogoNew.png" class="logo" alt="Shashemene Logo" title="Visit Shashemene" >
+                <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="site-navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="navbar" id="site-navigation">
                     <li>
                         <a href="#home">Home</a>
                         <a href="#package">Packages</a>
@@ -49,41 +55,10 @@
               
 
             <div class="title">
-                <h1>ADVENTOUR</h1>
-                <p>See the World for Less! Explore Amazing Destinations with Our Budget-Friendly Packages.  </p>
+                <h1>Visit Shashemene</h1>
+                <p>Where culture lives, history speaks, and unforgettable adventures begin. Experience the soul of Shashemene.  </p>
 
-                <div class="wrapper">
-                    <form action="#">
-                        <div class="h5 font-weight-bold text-center mb-3" >Search your Destination</div>
-                        <div class="destination">
-                            <label for="city" >Enter your destination</label>
-                          </div>
-                          
-                        <div class="form-group ">
-                            <input type="text" class="form-control" placeholder="Enter Your Name">
-                        </div>
-                        <div class="destination">
-                            <label for="city" >Enter your date</label>
-                        </div>
-                        <div class="form-group">
-                            <input autocomplete="off" type="date" class="form-control" placeholder="Select your date">
-                        </div>
-                        <div class="form-group">
-                            <div class="lable_total flex">
-                                  <label class="destination"  for="price">Max Price : <span id="result">2500</span> 
-                                </label>
-                            </div>
-                            <input id="mySlider" type="range" min="0" max="10000" value="2500"  style="width: 215px;">
-                            <script>
-                                mySlider.oninput = showSliderValue;
-                                function showSliderValue() {
-                                    result.innerText = this.value;
-                                }
-                            </script>
-                        </div>
-                    </form>
-                </div>
-
+                
                 <a href="./booking.html" class="button">
                     <span class="material-symbols-outlined">
                         how_to_reg
@@ -98,6 +73,7 @@
     <section class="container">
         <div class="text">
             <h2>We have the best services available for you!</h2>
+            <h1 style="text-align: center; color: lightslategray;"> Yooyya Baga Nagaan Dhuftan!</h1>
         </div>
         <div class="rowitems">
 
@@ -144,14 +120,14 @@
 
         <div class="package-content">
             <div class="text-block">
-                <h3>Best Selling Destinations</h3>
+                <h3>Best Hotels and Restaurants</h3>
             </div>
 
             <a href="./package.html#2700">
                 <div class="box">
                     <div class="image">
-                        <img src="./assets/files/p1.jpg" alt="">
-                        <h3>Starting at Rs.2,700 </h3>
+                        <img src="./assets/files/jaloNew.jpg" alt="">
+                        <h3>Jalo Hotel</h3>
                     </div>
                 </div>
             </a>
@@ -159,8 +135,8 @@
             <a href="./package.html#4999">
                 <div class="box">
                     <div class="image">
-                        <img src="./assets/files/p2.jpg" alt="">
-                        <h3>Starting at Rs.4,999</h3>
+                        <img src="./assets/files/QAFhotel.jpg" alt="">
+                        <h3>QAF Hotel</h3>
                     </div>
                 </div>
             </a>
@@ -168,8 +144,8 @@
             <a href="./package.html#9999">
                 <div class="box">
                     <div class="image">
-                        <img src="./assets/files/p3.jpg" alt="">
-                        <h3>Starting at Rs.9,999</h3>
+                        <img src="./assets/files/HaileHotelNew.jpg" alt="">
+                        <h3>Haile Hotel</h3>
                     </div>
                 </div>
             </a>
@@ -177,8 +153,8 @@
             <a href="./package.html#30000">
                 <div class="box">
                     <div class="image">
-                        <img src="./assets/files/p4.jpg" alt="">
-                        <h3>Starting at Rs.30,000</h3>
+                        <img src="./assets/files/GrandRoyalNew.jpg" alt="">
+                        <h3>Grand Royal Hotel</h3>
                     </div>
                 </div>
             </a>
@@ -186,8 +162,8 @@
             <a href="./package.html#37700">
                 <div class="box">
                     <div class="image">
-                        <img src="./assets/files/pac1.jpeg" alt="">
-                        <h3>Starting at Rs.37,700/-</h3>
+                        <img src="./assets/files/FramontNew.jpg" alt="">
+                        <h3>Framont Hotel</h3>
                     </div>
                 </div>
             </a>
@@ -195,8 +171,8 @@
             <a href="./package.html#47500">
                 <div class="box">
                     <div class="image">
-                        <img src="./assets/files/pac1.jpg" alt="">
-                        <h3>Starting at Rs.47,500/-</h3>
+                        <img src="./assets/files/ZionLodgeNew.jpg" alt="">
+                        <h3>Zion Lodge</h3>
                     </div>
                 </div>
             </a>
@@ -204,8 +180,8 @@
             <a href="./package.html#58500">
                 <div class="box">
                     <div class="image">
-                        <img src="./assets/files/pac3.jpg" alt="">
-                        <h3>Starting at Rs.58,500/-</h3>
+                        <img src="./assets/files/HamiltonNew.jpg" alt="">
+                        <h3>Hami<br>lton</h3>
                     </div>
                 </div>
             </a>
@@ -213,16 +189,16 @@
             <a href="./package.html#59500">
                 <div class="box">
                     <div class="image">
-                        <img src="./assets/files/pac7.jpg" alt="">
-                        <h3>Starting at Rs.59,500/-</h3>
+                        <img src="./assets/files/SenaRestaurant.jpg" alt="">
+                        <h3>Sena Bar</h3>
                     </div>
                 </div>
             </a>
             <a href="./package.html#59500">
                 <div class="box">
                     <div class="image">
-                        <img src="./assets/files/l3.jpg" alt="">
-                        <h3>Starting at Rs.65,500/-</h3>
+                        <img src="./assets/files/Tantostina.jpg" alt="">
+                        <h3>Tantos<br>tina</h3>
                     </div>
                 </div>
             </a>
@@ -243,36 +219,35 @@
         <div class="pack5-content">
 
             <div class="text-block">
-                <h3>Bestsellers at EPIC Discounts</h3>
-                <p>Grab our top-selling packages at unbelievable prices. Get 50% OFF on top sightseeing's , Free E-Visa
-                    & more!!</p>
+                <h3>Rated Places to Visit!</h3>
+                <p >Discover breathtaking places, embrace rich culture, and create unforgettable memories.</p>
             </div>
 
             <div class="box">
                 <div class="image">
-                    <img src="./assets/files/pack5.1.jpg" alt="">
-                    <h3>Egypt</h3>
+                    <img src="./assets/files/Rastafarians.jpg" alt="">
+                    <h3>Rastafari Community</h3>
                 </div>
             </div>
 
             <div class="box">
                 <div class="image">
-                    <img src="./assets/files/pack5.2.jpg" alt="">
-                    <h3>Vietnam</h3>
+                    <img src="./assets/files/CityPark.jpg" alt="">
+                    <h3>City Park</h3>
                 </div>
             </div>
 
             <div class="box">
                 <div class="image">
-                    <img src="./assets/files/pac2.3.jpg" alt="">
-                    <h3>Karala</h3>
+                    <img src="./assets/files/BananaArtGallery.jpg" alt="">
+                    <h3>Banana Art Gallery</h3>
                 </div>
             </div>
 
             <div class="box">
                 <div class="image">
-                    <img src="./assets/files/pac2.4.webp" alt="">
-                    <h3>Bali</h3>
+                    <img src="./assets/files/St.Michael1.jpg" alt="">
+                    <h3>St. Michael Church</h3>
                 </div>
             </div>
         </div>
@@ -282,37 +257,40 @@
 
         <div class="package2-content">
             <div class="text-block">
-                <h3>Jackpot Deals on Top Selling Packages</h3>
-                <p>Save extra with our exclusive deals!</p>
+                <h3>🏛️ Administrative Sites in Shashemene</h3>
+                <p>Explore the institutions driving Shashemene’s growth and governance.
+                   </p>
             </div>
 
             <a href="./assets/package.html#6000">
                 <div class="box">
                     <div class="image">
-                        <img src="./assets/files/pac2.1.jpg" alt="">
-                        <h3> Thailand </h3>
+                        <img src="./assets/files/MayorOffice.jpg" alt="">
+                        <h3> Shashemene City Mayor Office </h3>
                     </div>
                 </div>
             </a>
 
             <div class="box">
                 <div class="image">
-                    <img src="./assets/files/pack2.2.jpg" alt="">
-                    <h3>Goa</h3>
+                    <img src="./assets/files/AdminBeraue.jpg" alt="">
+                    <h3>Shashemene City Administration</h3>
                 </div>
             </div>
+
+            
 
             <div class="box">
                 <div class="image">
                     <img src="./assets/files/pac2.3.jpg" alt="">
-                    <h3>Karala</h3>
+                    <h3>Shashemene City Land Office</h3>
                 </div>
             </div>
 
             <div class="box">
                 <div class="image">
                     <img src="./assets/files/pac2.4.webp" alt="">
-                    <h3>Bali</h3>
+                    <h3>Woreda Administration Office</h3>
                 </div>
             </div>
 
@@ -320,7 +298,7 @@
                 <div class="box">
                     <div class="image">
                         <img src="./assets/files/pac2.5.jpg" alt="">
-                        <h3>Kashmir</h3>
+                        <h3>West Arsi Zone Administration Office</h3>
                     </div>
                 </div>
             </a>
@@ -337,65 +315,212 @@
 
     <section class="locations" id="locations">
         <div class="package-title">
-            <h2>Locations</h2>
+            <h2>Shahemene in One(Locations)</h2>
         </div>
 
         <div class="location-content">
             <a href="./locations.html">
                 <div class="col-content">
-                    <img src="./assets/files/l1.jpg" alt="">
-                    <h5>India</h5>
-                    <p>Kashmir</p>
+                    <img src="./assets/files/RastaNewjpg.jpg" alt="">
+                    <h5>Rastafari Community</h5>
+                    <p>Melka Oda</p>
                 </div>
             </a>
 
             <a href="./locations.html#istanbul">
                 <div class="col-content">
-                    <img src="./assets/files/l2.jpg" alt="">
-                    <h5>Turkey</h5>
-                    <p>Istanbul</p>
+                    <img src="./assets/files/MayerOfficeOrg.png" alt="">
+                    <h5>Mayor Office</h5>
+                    <p>Abosto</p>
                 </div>
             </a>
 
             <a href="./locations.html#paris">
                 <div class="col-content">
-                    <img src="./assets/files/l3.jpg" alt="">
-                    <h5>France</h5>
+                    <img src="./assets/files/Culture&Tourism.png" alt="">
+                    <h5>Culture&Tourism Bureau</h5>
                     <p>Paris</p>
                 </div>
             </a>
 
             <a href="./locations.html#bali">
                 <div class="col-content">
-                    <img src="./assets/files/l4.jpg" alt="">
-                    <h5>Indonesia</h5>
-                    <p>Bali</p>
+                    <img src="./assets/files/AleluNew.jpg" alt="">
+                    <h5>Alelu Gebeya</h5>
+                    <p>0 10(Alelu)</p>
                 </div>
             </a>
 
             <a href="./locations.html#dubai">
                 <div class="col-content">
-                    <img src="./assets/files/l5.jpg" alt="">
-                    <h5>United Arab Emirates</h5>
-                    <p>Dubai</p>
+                    <img src="./assets/files/AbostoOrg.jpg" alt="">
+                    <h5>Abosto</h5>
+                    <p>Market Center</p>
                 </div>
             </a>
 
             <a href="./locations.html#geneva">
                 <div class="col-content">
-                    <img src="./assets/files/l6.jpg" alt="">
-                    <h5>Switzerland</h5>
-                    <p>Geneva</p>
+                    <img src="./assets/files/CityParkOrg.jpg" alt="">
+                    <h5>Shashemene City Park</h5>
+                    <p>0 10 kebele</p>
                 </div>
             </a>
 
             <a href="./locations.html#port-blair">
                 <div class="col-content">
-                    <img src="./assets/files/l7.jpg" alt="">
-                    <h5>Andaman & Nicobar</h5>
-                    <p>Port Blair</p>
+                    <img src="./assets/files/StadiumOrg.jpg" alt="">
+                    <h5>Shashemene Stadium </h5>
+                    <p>0 10 kebele</p>
                 </div>
             </a>
+
+           <a href="./locations.html">
+                <div class="col-content">
+                    <img src="./assets/files/ComprehensiveOrg.jpg" alt="">
+                    <h5>Shashemene Comprehensive Specialized Hospital</h5>
+                    <p>Kuyera</p>
+                </div>
+            </a>
+
+
+            <a href="./locations.html">
+                <div class="col-content">
+                    <img src="./assets/files/FeyaGeneral.jpg" alt="">
+                    <h5>Feya General Hospital</h5>
+                    <p>01</p>
+                </div>
+            </a>
+
+
+
+            <a href="./locations.html">
+                <div class="col-content">
+                    <img src="./assets/files/CardinalOrg.jpg" alt="">
+                    <h5>Cardina Medical& Surgical Center</h5>
+                    <p>Alache/Awasho</p>
+                </div>
+            </a>
+
+
+
+            <a href="./locations.html">
+                <div class="col-content">
+                    <img src="./assets/files/JaloOrg.jpg" alt="">
+                    <h5>Jalo Hotel</h5>
+                    <p>04 Kebele</p>
+                </div>
+            </a>
+
+
+            <a href="./locations.html">
+                <div class="col-content">
+                    <img src="./assets/files/HaileOrg.jpg" alt="">
+                    <h5>Haile Hotel</h5>
+                    <p>04 kebele</p>
+                </div>
+            </a>
+
+             <a href="./locations.html">
+                <div class="col-content">
+                    <img src="./assets/files/Hamilton2Org.jpg" alt="">
+                    <h5>Hamilton </h5>
+                    <p>01 kebele</p>
+                </div>
+            </a>
+
+             <a href="./locations.html">
+                <div class="col-content">
+                    <img src="./assets/files/SenaRestaurantOrg.jpg" alt="">
+                    <h5>Sena Restaurant</h5>
+                    <p>Abosto</p>
+                </div>
+            </a>
+
+             <a href="./locations.html">
+                <div class="col-content">
+                    <img src="./assets/files/HadaSinkeOrg.jpg" alt="">
+                    <h5>Haadha Siinqee & Abbaa Gadaaa</h5>
+                    <p>Abosto</p>
+                </div>
+            </a>
+
+
+             <a href="./locations.html">
+                <div class="col-content">
+                    <img src="./assets/files/AradaOrg.jpg" alt="">
+                    <h5>Arada Gebeya</h5>
+                    <p>Arada</p>
+                </div>
+            </a>
+
+
+             <a href="./locations.html">
+                <div class="col-content">
+                    <img src="./assets/files/HabteFitOrg.jpg" alt="">
+                    <h5>Habte Fitness Shashemene</h5>
+                    <p>Abosto</p>
+                </div>
+            </a>
+
+
+             <a href="./locations.html">
+                <div class="col-content">
+                    <img src="./assets/files/TesfaOrg.jpg" alt="">
+                    <h5>Tesfa Gym & Nurtition Consultancy Ceneter</h5>
+                    <p>04 Kebele</p>
+                </div>
+            </a>
+
+            <a href="./locations.html">
+                <div class="col-content">
+                    <img src="./assets/files/SoleOrg.jpg" alt="">
+                    <h5>Sole Foreest</h5>
+                    <p>Awasho</p>
+                </div>
+            </a>
+
+            <a href="./locations.html">
+                <div class="col-content">
+                    <img src="./assets/files/SelamWaterOrg.jpg" alt="">
+                    <h5>Selam Water Company</h5>
+                    <p>Awasho</p>
+                </div>
+            </a>
+
+            <a href="./locations.html">
+                <div class="col-content">
+                    <img src="./assets/files/BishaanGurrachaOrg.jpg" alt="">
+                    <h5>Bishaan Gurracha</h5>
+                    <p>04 Kebele</p>
+                </div>
+            </a>
+
+            <a href="./locations.html">
+                <div class="col-content">
+                    <img src="./assets/files/BiftuOrg.jpg" alt="">
+                    <h5>Biftu Secondary School</h5>
+                    <p>09 Kebele</p>
+                </div>
+            </a>
+
+            <a href="./locations.html">
+                <div class="col-content">
+                    <img src="./assets/files/ChildParl.jpg" alt="">
+                    <h5>Shashemene Woreda Child-Parliament</h5>
+                    <p>Abosto</p>
+                </div>
+            </a>
+
+            <a href="./locations.html">
+                <div class="col-content">
+                    <img src="./assets/files/KoridorLimatOrg.jpg" alt="">
+                    <h5>City Corridor Development Project</h5>
+                    <p>Shashe</p>
+                </div>
+            </a>
+
+
         </div>
     </section><br><hr>
 
@@ -403,7 +528,7 @@
 
     <section><br>
         <div class="destination-title">
-            <h2>Best Destinations to Visit in India</h2>
+            <h2>Best Destinations to Visit in Shashemene</h2>
         </div>
         <div class="container1">
             <style>
@@ -443,139 +568,162 @@
             </style>
 
             <div class="box">
-                <h1>Goa</h1>
-                <p>The unofficial party place of India, Goa is more than that. It has a great legacy, history and
-                    culture that are yet to be explored. But if beaches are what you are looking for, then the state
-                    has that too. And that's why, India tours to Goa are a great option to explore the place,
-                    according to your interests. Goa holiday packages are also popular because Goa is one of the top
-                    places in the world when it comes to nightlife. Find several exciting tour packages and other
-                    India holiday packages that let you try Goa's melange of watersports and other fun activities.
+                <h1>Rastafari Community </h1>
+                <p>The Rastafari community in Shashemene is one of the city's most distinctive cultural and historical attractions. The community has deep connections to Jamaica, African identity, spirituality, and the dream of returning to Africa. Shashemene became an important destination for Rastafari people from the Caribbean and other parts of the world.
+                    In 1950, Emperor Haile Selassie I granted land near Shashemene to members of the Ethiopian World Federation in recognition of their support for Ethiopia during the Italian invasion. Rastafari settlers subsequently arrived, particularly from Jamaica, making Shashemene an important center of Rastafari culture in Africa.
                     <br>
-                    <br><b>Best time to visit :</b> November to February <br>
+                    <br><b>Best time to visit :</b> Anytime <br>
 
-                    <br> <b>Best places to visit:</b>
+                    <br> <b>Where to find them?</b>
                 <ul class="loc-detail">
-                    <li>Calangute</li>
-                    <li>Baga</li>
-                    <li>Anjuna</li>
-                    <li> Miramar</li>
-                    <li> Palolem</li>
-                    <li> Panjim</li>
+                    <li>Melka Oda</li>
+                    <li>NOC</li>
+                    
                 </ul>
-
-                <br> You can also include the offbeat Patnem Beach in your holiday tour packages, since it was
-                listed amongst one of Asia's top 20 beaches.
+                <h2>Culture and Traditions</h2>
+                  <h4>Reggae music:</h4>A musical tradition closely connected to Rastafari identity.
+                  <h4>Spirituality:</h4>Religious beliefs and practices inspired by African identity and Ethiopian history.
+                   <h4>Art and creativity:</h4>Handmade artwork and cultural expressions.
+                   <h4>Pan-African identity:</h4>A connection between Africa and people of African descent around the world.
+                    <h4>Cultural exchange:</h4>Interactions between Rastafari settlers and the wider Ethiopian community
+                    
+                    <h2>Why it Matters to Shashemene?</h2>
+                    The Rastafari community contributes to Shashemene's distinctive cultural identity by connecting Ethiopian heritage with Caribbean traditions and the wider African diaspora. Its history makes the city an important destination for cultural tourism, historical research, and learning about different communities living together.
+    
                 </p>
             </div>
 
             <div class="box">
                 <h1>
-                    Kerala
+                  Mayor Office
                 </h1>
-                <p>God's own country, Kerala has been a popular tourist destination in India. You can explore it all
-                    with India tours to this marvellous destination. With suitable tour packages, you can discover
-                    scenic seaside destinations and hill stations in Kerala. <br>
-                    <br> <b>Best time to visit:</b> September to March <br>
+                <p>The Shashemene Town Mayor Office is responsible for leading the city's administration, coordinating municipal activities, supporting public services, and implementing development plans that improve residents' lives. It plays an important role in shaping Shashemene's future. <br>
+                    <br> <b>Best time to visit:</b>Monday, Wednesday and Friday<br>
 
-                    <br> <b>Best places to visit:</b>
+                    <br> <b>Main Responsibilities:</b>
                 <ul class="loc-detail">
-                    <li>Sree Padmanabhaswamy Temple</li>
-                    <li> Francis CSI Church</li>
-                    <li> Paradesi Synagogue</li>
-                    <li> Eravikulam National Park
-                        Varkala Beach</li>
-                    <li>Athirappilly Waterfalls</li>
+                    <li>City leadership and administration.</li>
+                    <li> Urban development and infrastructure coordination.</li>
+                    <li> Public service delivery and citizen engagement.</li>
+                    <li> Implementation of municipal policies and development plans.</li>
+                    <li>Coordination with other city government offices.</li>
                 </ul>
                 <br>
 
+                <h2> Location and Contact Information</h2>
+                <h4>Address:</h4>Address: Main Road, Kebele 04, Shashemene, Ethiopia.
+                <h4>Phone:</h4> +251 46 551 0000
+                <h4>Email: </h4>info@shashemene.gov.et
+                <h4>Map location: </h4> Plus Code 5JV2+X5J, Shashemene, Ethiopia.
+
+                  <h2>Why It Matters to Shashemene?</h2>
                 <br>
-                If you are planning India holiday packages in the state, then you must not miss out on its
-                lip-smacking cuisine as well. Check your holiday tour packages and book accordingly.</p>
+
+                  <h3> **Leading the City's Future** <br></h3>
+
+The Shashemene Mayor's Office stands at the heart of the city's development, guiding urban growth, improving public services, and supporting initiatives that enhance the lives of residents. From shaping development plans to addressing community needs, the office plays a vital role in building a more prosperous, organized, and sustainable Shashemene.
+Its leadership plays an essential role in preserving Shashemene's identity while creating new opportunities for growth, investment, and a sustainable future for generations to come.
+</p>
 
             </div>
 
             <div class="box">
-                <h1>Kashmir</h1>
+                <h1>Jalo Hotel</h1>
                 <p>
-                    For decades, the Kashmir valley has attracted tourists from all over the world. If you can't
-                    plan a vacation on your own, you should check out India tours for Kashmir to help you with an
-                    unforgettable holiday. With the right all India tour packages, you can discover lush green
-                    valleys, snow-covered peaks and gorgeous wildlife. Your trip packages must include the Chenab,
-                    Sindh and Lidder valleys. Don't forget to buy a world-famous Kashmiri shawl and one-of-a-kind
-                    handicrafts for your loved ones. <br>
-                    <br> <b> Best Time to Visit:</b> March to August <br>
+                 Discover Jalo Hotel, a welcoming accommodation in Shashemene where comfort, relaxation, and Ethiopian hospitality come together. Whether you're visiting for business, exploring the city's cultural attractions, or enjoying a relaxing getaway, Jalo Hotel offers comfortable rooms, dining facilities, and convenient services to make your stay enjoyable. <br>
+                    <br> <b> Best Time to Visit:</b> Anytime you want <br>
 
-                    <br> Best Places to Visit: <br>
+                    <br> Best meals to try: <br>
                 <ul class="loc-detail">
-                    <li>Gulmarg</li>
-                    <li> Srinagar</li>
-                    <li> Dal Lake</li>
-                    <li> Sonamarg</li>
-                    <li> Indira Gandhi Tulip Garden</li>
+                    <li>Ethiopian Tibs</li>
+                    <li> Traditional Injera with Wot</li>
+                    <li> Continental Breakfast</li>
+                    <li> Burgers and American-Style Meals</li>
+                    <li> Caribbean-Inspired Cuisine</li>
+                    <li> Vegetarian Meals</li>
+                    <li> Ethiopian Coffee & Worldwide drinks</li>
                 </ul>
-                <br>
-                <br> These places should be included in the best tour packages for Kashmir. Find travel packages to
-                suit all needs and you can also find exquisite honeymoon packages, since Kashmir is an ethereal
-                destination for a picture-perfect Indian honeymoon.</p>
+
+                     <h2>Comfortable Accommodation</h2>
+                     Jalo Hotel offers different accommodation options, including double rooms, suites, and family rooms. Listed room features include private bathrooms, televisions, work desks, and Wi-Fi. Some rooms also feature balconies and views of the surrounding city, gardens, or mountains, providing guests with a relaxing environment after a busy day.
+                    <h2> Dining and Refreshments</h2>
+                    The hotel's listed facilities include a restaurant and bar, offering convenient options for guests who prefer dining at their accommodation. Breakfast options advertised by booking platforms include buffet-style and continental selections, with vegetarian and halal options also listed.
+                     <h2>Relaxation and Recreation</h2>
+                     For guests looking to unwind, hotel listings advertise facilities such as a terrace, fitness center, sauna, and spa and wellness services. Availability may vary, so visitors should confirm specific facilities directly with the hotel before planning their stay.
+                      <h2> Hospitality and Guest Services</h2>
+                     <br>
+                <br> </p>
             </div>
 
             <div class="box">
-                <h1>Sikkim</h1>
-                <p>If you are looking for an Indian destination that is fit for a world tour package, then look no
-                    further than Sikkim. You can plan amazing India tours to this mountain marvel, which is home to
-                    the country's highest peak, Kanchenjunga. It is certainly a great destination for quality
-                    international tour packages. Check out Sikkim tour packages for a trip to this charming Indian
-                    state. <br>
-                    <br> <b>Best Time to Visit:</b> March to May <br>
+                <h1>Abosto</h1>
+                <h3>Discover the Energy of Everyday City Life</h3>
+                <p>Abosto is an important urban area in Shashemene, Oromia, Ethiopia, where commercial activities, public services, religious institutions, and residential communities come together. Known for its busy streets and connection to the city's commercial life, Abosto offers visitors a glimpse into the daily rhythm of Shashemene. <br>
+                    <br>
+                    <h4>Location And Background</h4>
+                    Abosto is one of the recognized sub-city areas of Shashemene. Its development reflects the city's growth as a commercial and transportation center connecting communities and businesses across southern Ethiopia. The area's roads and business activities contribute to the movement of people, goods, and services throughout the city.
+                    <b>Best Time to Visit:</b> Anytime<br>
 
                     <br> Best Places to Visit:
                 <ul class="loc-detail">
-                    <li> Gangtok</li>
-                    <li> Nathu La Pass</li>
-                    <li> Tsomgo Lake</li>
-                    <li> Rumtek Monastery</li>
+                    <li> 9 GameZone</li>
+                    <li> Hamrawi Cafe</li>
+                    <li> St. Michael Church</li>
+                    <li> Electronic Shops</li>
                 </ul>
+                <h3>Business and Commercial Activities</h3>
+                Abosto is associated with lively commercial activity, including shops, local businesses, markets, cafés, and other service providers. These businesses serve residents and visitors while contributing to the local economy. Exploring the area offers an opportunity to experience the everyday energy of Shashemene's urban life.
+                 <h3> Culture and Community</h3>
+                 Abosto's identity is also shaped by its religious institutions and community life. St. Michael Church is one of the recognizable religious landmarks in the area. Places of worship, neighborhood gathering points, and local businesses contribute to the social and cultural character of the community.
+            <h3> What Visitors Can Experience</h3>
+            Visitors exploring Abosto can observe local commerce, discover nearby businesses, experience the city's street life, and learn how residents interact with the urban environment. The area can also serve as a starting point for discovering other parts of Shashemene.
                 </p>
             </div>
 
             <div class="box">
-                <h1>Shimla</h1>
-                <p> Shimla, the Queen of the Hills, is the stuff that dreamy India tours are made of! Shimla is a
-                    great
-                    destination for international honeymoon packages, with its pristine landscape, mountains,
-                    greenery
-                    and romantic weather. A Shimla tour also means checking out the delightful cafes and eateries
-                    here. <br>
-
+                <h1> Culture and Tourism Bureau</h1>
+                <h3>Celebrating Shashemene's Cultural Identity</h3>
+                <p> The Culture and Tourism Bureau plays an important role in preserving Shashemene's cultural identity, promoting its tourism potential, and showcasing the city's rich heritage. Through cultural promotion, heritage conservation, and tourism development, the bureau helps connect visitors with the traditions, history, and diverse communities that make Shashemene unique. <br>
+                 <h3> Promoting Tourism and Cultural Heritage</h3>
+                 From the distinctive history of the Rastafari community to local traditions, religious landmarks, and cultural expressions, Shashemene offers visitors opportunities to discover its diverse identity. The bureau can support efforts to document, preserve, and promote these cultural and historical resources, helping make the city more attractive to visitors.
+                    <h3> Supporting Culture and Community</h3>
+                    Culture is a living part of Shashemene's identity. Supporting traditional practices, artistic expression, cultural events, and community participation helps preserve local heritage while encouraging younger generations to appreciate their history and traditions.
+                     <h3> Encouraging Sustainable Tourism</h3>
+                     Tourism can create opportunities for local businesses, guides, artists, accommodation providers, and other community members. By encouraging responsible tourism and protecting cultural and natural resources, the bureau contributes to a future in which tourism benefits both visitors and residents.
                     <br> <b>Best Time to Visit:</b> May to June/December to January <br>
 
                     <br> Best Places to Visit:
                 <ul class="loc-detail">
-                    <li>The Ridge</li>
-                    <li> Green Valley</li>
-                    <li> Mall Road</li>
-                    <li> Jakhoo Hill</li>
+                    <li>Rastafari Community</li>
+                    <li> Shalla Lake</li>
+                    <li>Sole Forest</li>
+                    <li> </li>
                 </ul>
+                The Culture and Tourism Bureau helps connect Shashemene's past with its future. By promoting cultural heritage, encouraging tourism, and supporting the preservation of local identity, it contributes to the city's visibility, economic opportunities, and long-term development.
                 </p>
             </div>
 
             <div class="box">
-                <h1> Uttarakhand</h1>
-                <p> There are many India tours which keep Uttarakhand at the forefront and why not? The state is
-                    blessed with unmatched natural beauty. Find Uttarakhand tour packages covering several popular
-                    destinations. The state offers the right mix of spirituality, trekking, adventure, beautiful
-                    mountain landscapes and welcoming locals. <br>
+                <h1>Sole Natural Forest</h1>
+                <p>For your Visit Shashemene website, Sole Natural Forest can be presented as a destination for nature lovers, environmental education, and forest conservation. Research on the Shashemene–Munessa forest area documents its natural vegetation, biodiversity, and ecological importance. The Sole forest district is associated with the wider Shashemene forest landscape, approximately 7 km from Shashemene in an older forest-sector study. <br>
 
-                    <br> <b> Best time to visit:</b> March to April/September to October <br>
+                    <br> <b> Best time to visit:</b> Summer time<br>
 
-                    <br> Best places to visit:
+                    <br> What you get there is:
                 <ul class="loc-detail">
-                    <li> Dehradun</li>
-                    <li> Mussoorie</li>
-                    <li> Nainital</li>
-                    <li> Auli</li>
-                    <li> Rishikesh</li>
+                    <li> Selam Water</li>
+                    <li> Animals</li>
+                    <li> Cafteria</li>
+                    <li> Proposal Programs</li>
+                    <li> Beauty of Nature</li>
                 </ul>
+                Discover the natural beauty of Sole Natural Forest, an important part of the forest landscape surrounding Shashemene, Oromia, Ethiopia. With its rich vegetation, green surroundings, and ecological significance, the forest offers an opportunity to appreciate the beauty of nature and understand the importance of protecting Ethiopia's natural heritage.
+                <h3>Natural Beauty and Biodiversity</h3>
+                The wider Shashemene–Munessa forest landscape contains diverse vegetation, including indigenous tree species and other plants that contribute to its ecological richness. These natural environments provide habitats for wildlife, help maintain ecological balance, and support the region's environmental health.
+                 <h3> Nature Exploration and Outdoor Experiences</h3>
+                 For visitors who enjoy the outdoors, the forest landscape offers opportunities to appreciate natural scenery, observe vegetation, take photographs, and learn about local ecosystems. Walking routes and access to particular areas should be confirmed locally before planning a visit.
+                  <h3>Wildlife and Plant Life</h3>
+                  The broader Shashemene–Munessa forest ecosystem supports a variety of plant and animal life. Its vegetation provides habitat for wildlife and contributes to the ecological diversity of the region. Visitors should respect wildlife and avoid disturbing natural habitats.
                 </p>
 
             </div>
@@ -607,40 +755,47 @@
             </div>
 
             <p><br>
-            <h3> What kind of destinations can I choose for travelling?</h3> <br>
-            <p> You can choose any destination for travel as per your mood. For an action-packed holiday, you can choose
-                wildlife, trekking and other adventurous destinations. For a romantic holiday with your special someone,
-                you can choose from a range of couple-friendly destinations. You can also choose the kind of holiday you
-                want based on the destination you like—whether hills, mountains, beaches, heritage or pilgrimage sites.
+            <h3>  Where is Shashemene located?</h3> <br>
+            <p> Shashemene is a vibrant city in the Oromia Region of Ethiopia, located south of Addis Ababa. It is known for its commercial activity, cultural diversity, and connections to the Rastafari community.
             </p><br>
             <hr>
 
             <br>
-            <h3> Can I opt for a budget-friendly holiday?</h3><br>
+            <h3> What is Shashemene famous for?</h3><br>
             <p>
-                Yes, you can. All you have to do is set an approximate expenditure amount in your mind before starting
-                exploring the ideas here. You can search for a suitable destination for your travel in any range from
-                Rs. 10,000 to Rs. 50,000. It is advisable to make all the bookings in advance in order to avoid change
-                in prices.</p><br>
+               Shashemene is widely known for its Rastafari community, diverse cultural heritage, lively commercial life, and role as a gateway to attractions in southern Ethiopia.</p><br>
             <hr>
 
             <br>
-            <h3> Which time of the year is best suited for booking a holiday?</h3><br>
-            <p>x
-                Holidays can be booked throughout the year. You only need to select the month in which you are planning
-                to travel. Our curated list of ideas is designed in such a way that you will be able to see only those
-                destinations which are most suitable for that particular month of the year. If you select a combination
-                of filters defining your month, budget and purpose of travel, you will get the appropriate destination
-                name and other details.</p><br>
+            <h3> What are the best places to visit in Shashemene?</h3><br>
+            <p>Visitors can explore the Rastafari community, local cultural and religious landmarks, commercial areas such as Abosto, and nearby natural attractions. The wider region also offers opportunities for nature and cultural tourism.</p><br>
             <hr>
 
             <br>
-            <h3>What all will I get in a holiday idea?</h3>
-            <p>Once you choose a destination, it will give you complete details of all the unique things about that
-                place that must not be missed, including most visited local sites, best places to stay and all the
-                memorable experiences that you can indulge in. You will be given multiple options of hotels, resorts and
-                guest houses to choose from depending on your budget. </p> <br>
+            <h3>Is Sole Natural Forest worth visiting?</h3>
+            <p>Sole Natural Forest may interest visitors who enjoy nature, greenery, and environmental exploration. Confirm its exact location, accessibility, and visitor arrangements with local authorities before traveling. </p> <br>
             <hr>
+
+            <h3>Where can I stay in Shashemene?</h3>
+            <p>Shashemene offers accommodation options for different types of travelers. Visitors can explore hotels such as Jalo Hotel and compare available facilities, prices, and locations before booking. </p> <br>
+            <hr>
+
+
+             <h3>What makes Shashemene's culture unique?</h3>
+            <p>Shashemene brings together diverse Ethiopian traditions and an internationally recognized Rastafari presence. This cultural diversity creates opportunities to learn about music, spirituality, history, and different ways of life. </p> <br>
+            <hr>
+
+            <h3> Is Shashemene suitable for tourists?</h3>
+            <p>Visitors can explore Shashemene while taking sensible precautions, respecting local customs, and checking current local conditions. For a comfortable trip, plan your transportation and accommodation in advance. </p> <br>
+            <hr>
+
+
+            <h3>How can I discover more about Shashemene?</h3>
+            <p>Explore the Visit Shashemene website to discover local attractions, cultural landmarks, accommodation options, natural areas, and useful travel information for planning your visit.</p> <br>
+            <hr>
+
+            
+
             </p>
         </div>
     </section>
@@ -677,16 +832,17 @@
                 </div>
 
                 <div class="footlinks">
-                    <h4>Connect</h4>
+                    <h4>Connect to Shashe</h4>
                     <div class="social">
-                        <a href="https://www.facebook.com/profile.php?id=100007787415175" target="_blank"><i
+                        <a href="https://www.facebook.com/profile.php?id=100050484639992" target="_blank" title="Gola Shaashee(የሻሼ ጓዳ)"><i
                                 class='bx bxl-facebook'></i></a>
-                        <a href="https://www.instagram.com/iamit010/" target="_blank"><i
+                      <!--  <a href="https://www.instagram.com/iamit010/" target="_blank"><i
                                 class='bx bxl-instagram'></i></a>
                         <a href="https://twitter.com/sarcasmit_" target="_blank"><i class='bx bxl-twitter'></i></a>
                         <a href="https://www.linkedin.com/in/amit-kumar-singh-475b36212/" target="_blank"><i
                                 class='bx bxl-linkedin'></i></a>
                         <a href="https://github.com/iamit010" target="_blank"><i class='bx bxl-github'></i></a>
+                        -->
                     </div>
                 </div>
 
@@ -694,7 +850,7 @@
         </div>
 
         <div class="end">
-            <p>Copyright © 2023 Adventour All Rights Reserved.<br>Website developed by: Amit Kumar Singh</p>
+            <p>Copyright © 2026 Shashemene, Oromia, Ethiopia All Rights Reserved.<br>Website developed by: Adugna Hirpo</p>
         </div>
     </section>
  <SCRIPT type="text/javascript">

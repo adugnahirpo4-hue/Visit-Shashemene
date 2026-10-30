@@ -1,7 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border;
+  box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   text-decoration: none;
   list-style: none;
@@ -11,8 +11,11 @@
 /* Home page */
 
 .banner {
+  position: relative;
   width: 100%;
   height: 100vh;
+  height: 100svh;
+  height: 100dvh;
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -21,9 +24,9 @@
 
 .banner video {
   position: absolute;
-  top: 0;
-  left: 0;
+  inset: 0;
   object-fit: cover;
+  object-position: center;
   width: 100%;
   height: 100%;
   pointer-events: none;
@@ -34,6 +37,8 @@
   z-index: 1;
   width: 100%;
   height: 100vh;
+  height: 100svh;
+  height: 100dvh;
   background-image: linear-gradient(rgba(1, 0, 5, 0.3), rgba(4, 1, 17, 0.3));
 }
 
@@ -69,14 +74,46 @@ nav ul li {
   margin-right: 8vh;
 }
 
+.menu-toggle {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+  width: 44px;
+  height: 44px;
+  padding: 10px;
+  border: 0;
+  border-radius: 4px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.menu-toggle span {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 2px;
+  background-color: #101010;
+}
+
 .navbar a {
+  display: inline-block;
   color: rgb(5, 5, 5);
   font-size: 18px;
   padding: 15px 12px;
   border-radius: 4px;
   font-weight: 500;
   text-decoration: none;
-  transition: ease 0.4s;
+  transition: color 0.25s ease, background-color 0.25s ease, box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+.navbar a:hover,
+.navbar a:focus-visible {
+  color: #fff;
+  background-color: #e87522;
+  box-shadow: 0 6px 16px rgba(232, 117, 34, 0.35);
+  transform: translateY(-3px);
 }
 
 .icons {
@@ -255,7 +292,11 @@ nav ul li a {
 .pack4-content {
   background-color: #fdf5f5;
   border-radius: 5px;
-  background-image: url("https://akam.cdn.jdmagicbox.com/images/icontent/flight/landing-page_3jan-2x.png");
+  background-image: url("../files/visit-shashemene.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 220px;
   padding: 25px;
   padding-right: 50px;
   display: flex;
@@ -267,9 +308,9 @@ nav ul li a {
 }
 
 .pack5-content {
-  background-color: #fdf5f5;
+  background-color: #080808;
   border-radius: 15px;
-  background-image: url("https://images.pexels.com/photos/1122640/pexels-photo-1122640.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-image: linear-gradient(135deg, #050505, #171717 50%, #050505);
   box-shadow: 10px 10px 15px #3b3737;
   padding: 25px;
   padding-right: 50px;
@@ -707,4 +748,385 @@ form textarea {
   color: #191919;
   font-weight: 600px;
   background-color: transparent;
+}
+
+/* Responsive layouts */
+
+img,
+video {
+  max-width: 100%;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+@media (min-width: 1440px) {
+  .rowitems,
+  .location-content {
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .package-content,
+  .package2-content,
+  .pack4-content,
+  .pack5-content {
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 1100px) {
+  .navbar {
+    margin-right: 2vw;
+  }
+
+  nav ul li {
+    margin-left: 0;
+  }
+
+  .navbar a {
+    padding: 12px 8px;
+    font-size: 16px;
+  }
+
+  .rowitems {
+    margin-left: 5%;
+    margin-right: 5%;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 16px;
+  }
+
+  .package-content,
+  .package2-content,
+  .pack4-content,
+  .pack5-content {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 24px;
+  }
+
+  .contact {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .contact p {
+    margin-right: 0;
+  }
+
+  .contact-form {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .abt-text {
+    width: auto;
+  }
+
+  .abt-text p {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .container1 {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    margin-left: 16px !important;
+    margin-right: 16px !important;
+    padding: 16px !important;
+  }
+
+  .container1 .box {
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+
+  .container1 h1 {
+    font-size: clamp(1.25rem, 4vw, 2rem);
+  }
+
+  nav {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 4px 12px;
+  }
+
+  nav .logo {
+    width: 48px;
+    margin: 4px 0;
+  }
+
+  .menu-toggle {
+    display: flex;
+  }
+
+  .navbar {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 8px 12px 12px;
+    background: white;
+    box-shadow: 0 12px 18px rgba(0, 0, 0, 0.12);
+  }
+
+  .navbar.is-open {
+    display: block;
+  }
+
+  nav ul li {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+  }
+
+  .navbar a {
+    display: block;
+    padding: 10px 12px;
+    font-size: 16px;
+    line-height: 1.4;
+  }
+
+  .banner,
+  .content {
+    min-height: 100vh;
+    min-height: 100svh;
+    min-height: 100dvh;
+    height: auto;
+  }
+
+  .title {
+    margin-top: max(18vh, 110px);
+    padding: 12px;
+    font-size: clamp(1rem, 3vw, 1.5rem);
+  }
+
+  .title h1 {
+    font-size: clamp(2.25rem, 8vw, 4rem);
+  }
+
+  .title p {
+    padding: 0 8px;
+  }
+
+  .text h2 {
+    padding: 0 16px;
+    font-size: clamp(1.5rem, 5vw, 2.25rem);
+    line-height: 1.4;
+  }
+
+  .rowitems {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    margin: 24px 16px;
+    gap: 12px;
+  }
+
+  .container-box {
+    width: 100%;
+    height: auto;
+    min-height: 210px;
+  }
+
+  .package-content,
+  .package2-content,
+  .pack4-content,
+  .pack5-content {
+    flex-wrap: wrap;
+    margin: 12px 16px;
+    padding: 20px;
+    gap: 12px;
+  }
+
+  .package-content > a,
+  .package2-content > a,
+  .pack4-content > .box,
+  .pack5-content > .box,
+  .package2-content > .box {
+    flex: 1 1 200px;
+    min-width: 0;
+  }
+
+  .text-block {
+    position: static;
+    width: 100%;
+    margin: 0;
+  }
+
+  .image {
+    margin-top: 0;
+  }
+
+  .location-content {
+    padding: 0 16px;
+    gap: 12px;
+  }
+
+  .location-content > a {
+    flex: 1 1 220px;
+    min-width: 0;
+  }
+
+  .col-content {
+    width: 100%;
+  }
+
+  .col-content img {
+    height: 240px;
+    object-fit: cover;
+  }
+
+  .newsletter {
+    padding: 0 16px;
+    gap: 16px;
+  }
+
+  .newstext h2,
+  .newsletter form {
+    margin-top: 24px;
+  }
+
+  .newsletter form {
+    max-width: 440px;
+  }
+
+  .newsletter form input:first-child {
+    width: 100%;
+    padding-right: 140px;
+  }
+
+  .main {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .abt-text {
+    text-align: center;
+    padding: 0 16px;
+  }
+
+  .abt-text h1,
+  .contact h1 {
+    font-size: clamp(2rem, 7vw, 3rem);
+  }
+
+  .abt-text p,
+  .contact p {
+    text-align: left;
+    line-height: 1.8;
+  }
+
+  .contact {
+    padding: 130px 6% 40px;
+  }
+
+  .contact-form {
+    padding: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container1 {
+    grid-template-columns: minmax(0, 1fr) !important;
+    margin-left: 12px !important;
+    margin-right: 12px !important;
+  }
+
+  .title {
+    margin-top: max(14vh, 110px);
+  }
+
+  .rowitems {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    margin: 20px 12px;
+  }
+
+  .container-box {
+    padding: 10px 6px;
+    min-height: 195px;
+  }
+
+  .container-box h4 {
+    font-size: 16px;
+  }
+
+  .container-box p {
+    font-size: 13px;
+  }
+
+  .package-title h2 {
+    font-size: 24px;
+    line-height: 1.4;
+  }
+
+  .package-content,
+  .package2-content,
+  .pack4-content,
+  .pack5-content {
+    margin-left: 12px;
+    margin-right: 12px;
+    padding: 14px;
+  }
+
+  .package-content > a,
+  .package2-content > a,
+  .pack4-content > .box,
+  .pack5-content > .box,
+  .package2-content > .box {
+    flex-basis: 100%;
+  }
+
+  .image img {
+    height: 190px;
+    object-fit: cover;
+  }
+
+  .location-content {
+    padding: 0 12px;
+  }
+
+  .col-content {
+    width: 100%;
+  }
+
+  .location-content > a {
+    flex-basis: 100%;
+  }
+
+  .col-content img {
+    height: 220px;
+  }
+
+  .newsletter form input:first-child {
+    padding: 16px 120px 16px 16px;
+    font-size: 15px;
+  }
+
+  .newsletter form input:last-child {
+    padding: 12px 16px;
+    font-size: 14px;
+  }
+
+  .end {
+    padding: 32px 12px 12px;
+  }
+
+  .end p {
+    font-size: 12px;
+    letter-spacing: 0.3px;
+  }
+
+  .contact {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .contact-form {
+    padding: 16px;
+  }
 }

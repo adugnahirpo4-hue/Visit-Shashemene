@@ -148,3 +148,55 @@ textarea {
     color: darkgreen;
     border: 3px solid darkgreen;
 }
+
+@media (max-width: 768px) {
+    .booking {
+        padding: 110px 16px 32px;
+    }
+
+    .booking form {
+        width: min(100%, 500px);
+        min-width: 0;
+        padding: 24px;
+    }
+
+    .booking fieldset {
+        margin-right: 0;
+    }
+
+    .booking label {
+        display: block;
+    }
+
+    .booking input:not(.inline),
+    .booking textarea {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .booking select,
+    .booking .room {
+        margin-left: 0;
+    }
+
+    .booking .submit-btn {
+        width: auto;
+        max-width: 100%;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .booking {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .booking form {
+        padding: 16px;
+    }
+
+    .booking h1 {
+        font-size: 1.6rem;
+    }
+}

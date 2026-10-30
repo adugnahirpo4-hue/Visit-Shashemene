@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Register Here</title>
-    <link rel="icon" href="./assets/files/logo.png" />
+    <link rel="icon" href="./assets/files/ShasheLogoNew.png" />
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
     <link rel="stylesheet" type="text/css" href="./assets/css/booking.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -14,13 +14,46 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" />
+    <script defer src="assets/js/script.js"></script>
+
+<!-- EmailJS SDK -->
+<script src="https://cdn.emailjs.com/js/3.0.7/emailjs.min.js"></script>
+<script>
+  emailjs.init("QX-tKAtsa8lK3o7gy", function() {
+    console.log('EmailJS initialized successfully');
+  });
+
+  document.querySelector('form').addEventListener('submit', function(e) {
+    e.preventDefault();
+
+    console.log('Form submit triggered');
+
+    emailjs.sendForm("service_9fgdxfa", "template_4qwspoe", this)
+      .then(
+        (response) => {
+          console.log('SUCCESS!', response);
+          alert('Booking request submitted successfully! We will contact you soon.');
+        },
+        (error) => {
+          console.error('FAILED...', error);
+          alert('Failed to send booking request. Please check console for details.');
+        }
+      );
+  });
+</script>
 </head>
 
 <body>
     <div>
         <nav>
-            <img src="./assets/files/logo.png" class="logo" alt="Logo" title="FirstFlight Travels">
-            <ul class="navbar">
+            <img src="./assets/files/ShasheLogoNew.png" class="logo" alt="Logo" title="FirstFlight Travels">
+            <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="site-navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="navbar" id="site-navigation">
                 <li>
                     <a href="index.html">Home</a>
                     <a href="./index.html#package">Packages</a>
@@ -88,7 +121,7 @@
                     <textarea name="additional" rows="5" cols="30" placeholder="Your message ..."></textarea>
                 </label>
             </fieldset>
-            <input type="submit" value="Submit" ONCLICK="alert('Booked successfully! \nEnjoy your journey')" class="submit-btn" />
+            <input type="submit" value="Submit" class="submit-btn" />
            
         </form>
     </div>
@@ -109,24 +142,22 @@
                 </ul>
             </div>
 
+              <div>
             <div class="footlinks">
-                <h4>Connect</h4>
+                <h4>Connect to Shashe</h4>
                 <div class="social">
-                    <a href="https://www.facebook.com/profile.php?id=100007787415175" target="_blank"><i
-                            class='bx bxl-facebook'></i></a>
-                    <a href="https://www.instagram.com/iamit010/" target="_blank"><i class='bx bxl-instagram'></i></a>
-                    <a href="https://twitter.com/sarcasmit_" target="_blank"><i class='bx bxl-twitter'></i></a>
-                    <a href="https://www.linkedin.com/in/amit-kumar-singh-475b36212/" target="_blank"><i
-                            class='bx bxl-linkedin'></i></a>
-                    <a href="https://github.com/iamit010" target="_blank"><i class='bx bxl-github'></i></a>
+                     <a href="https://www.facebook.com/profile.php?id=100050484639992" target="_blank" title="Gola Shaashee(የሻሼ ጓዳ)"><i
+                                class='bx bxl-facebook'></i></a>
                 </div>
+
+                
             </div>
 
         </div>
     </div>
 
     <div class="end">
-        <p>Copyright © 2023 Adventour All Rights Reserved.<br>Website developed by: Amit Kumar Singh</p>
+        <p>Copyright © 2026 Shashemene, Oromia, Ethiopia   All Rights Reserved.<br>Website developed by: Adugna Hirpo</p>
     </div>
 </section>
 
