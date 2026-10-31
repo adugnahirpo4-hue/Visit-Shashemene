@@ -1,4 +1,70 @@
 (function() {
+    function initEmailJS() {
+        if (typeof emailjs !== 'undefined') {
+            emailjs.init("kzsIAOJDkNp0BvSsu");
+        }
+    }
+
+    const maxRetries = 30;
+    let retries = 0;
+
+    function checkAndInit() {
+        if (typeof emailjs !== 'undefined') {
+            emailjs.init("kzsIAOJDkNp0BvSsu");
+        } else if (retries < maxRetries) {
+            retries++;
+            setTimeout(checkAndInit, 200);
+        }
+    }
+
+    checkAndInit();
+
+    const contactForm = document.getElementById("contact-form");
+    const submitBtn = document.getElementById("submit-btn");
+    const formStatus = document.getElementById("form-status");
+
+    if (contactForm) {
+        contactForm.addEventListener("submit", async function (event) {
+            event.preventDefault();
+
+            if (typeof emailjs === 'undefined') {
+                formStatus.textContent = "Email service unavailable. Please use the contact email below or try again later.";
+                formStatus.style.color = "red";
+                submitBtn.disabled = false;
+                submitBtn.textContent = "Send Message";
+                return;
+            }
+
+            submitBtn.disabled = true;
+            submitBtn.textContent = "Sending...";
+            formStatus.textContent = "";
+
+            const formData = new FormData(contactForm);
+            const templateParams = {
+                name: formData.get("myname") || "",
+                email: formData.get("email") || "",
+                subject: formData.get("subject") || "",
+                message: formData.get("message") || "",
+                title: "done.",
+            };
+
+            try {
+                const response = await emailjs.send("service_9fgdxfa", "template_4qwspoe", templateParams);
+
+                formStatus.textContent = "Your message was sent successfully!";
+                formStatus.style.color = "green";
+                contactForm.reset();
+            } catch (error) {
+                console.error("EmailJS error:", error);
+                formStatus.textContent = error.text || "Sorry, your message could not be sent. Please try again.";
+                formStatus.style.color = "red";
+            } finally {
+                submitBtn.disabled = false;
+                submitBtn.textContent = "Send Message";
+            }
+        });
+    }
+
     const navLinks = document.querySelectorAll('.navbar a');
     const sections = document.querySelectorAll('section');
 
