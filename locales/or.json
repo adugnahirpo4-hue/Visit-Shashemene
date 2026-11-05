@@ -1,0 +1,133 @@
+{
+  "nav_home": "Homie",
+  "nav_packages": "Qilleensa",
+  "nav_locations": "Qofaachu",
+  "nav_about": "Abuun Afaan Oromoo",
+  "nav_contact": "Kontaktin",
+  "lang_english": "Ingiliz",
+  "lang_oromo": "Afaan Oromoo",
+  "lang_amharic": "Amarinya",
+  
+  "hero_title": "Fida Shashemene",
+  "hero_subtitle": "Afaan Biyyana, Dhaabbanaa dhugessa, jedhuun kan qaba. Fida Shashemenee dandeenyaa.",
+  
+  "services_title": "Biyyaa keenyaa keenya keenyaa keenyaa keenyaa keenyaa!",
+  "service_flight": "Biyyaa Amal",
+  "service_flight_desc": "Jirra-Ammalaa",
+  "service_food": "Biyyaa Ahicha",
+  "service_food_desc": "Hoji",
+  "service_travel": "Biyyaa Roobaa",
+  "service_travel_desc": "Jiraa-Walitti",
+  "service_hotel": "Hotel Biyyaa",
+  "service_hotel_desc": "Fayyadha/Immoo",
+  
+  "packages_title": "Qilleensa",
+  "package_hotel_restaurants": "Qilleensa Ta'aa fi Qilleensa",
+  
+  "jalo_hotel": "Hotel Jalo",
+  "qaf_hotel": "Hotel QAF",
+  "haile_hotel": "Hotel Haile",
+  "grand_royal": "Hotel Grand Royal",
+  "framont_hotel": "Hotel Framont",
+  "zion_lodge": "Lodge Zion",
+  "hamilton": "Hamilton",
+  "sena_bar": "Bar Sena",
+  "tastosntina": "Tantostina",
+  
+  "ratings_title": "Fiqashaan Dubbira",
+  "ratings_desc": "Fidaatti dhugaa'i, bifaalan dukkuba, jedhuun barbaachisaa keenyaa.",
+  
+  "rastafari_community": "Jammii Rastafarii",
+  "city_park": "Parkuun Shashemene",
+  "banana_art_gallery": "Galleri Banaa",
+  "st_michael_church": "K'il St. Michael",
+  
+  "admin_sites_title": "🏛️ Qofaa Xiqii Biyya-Oromiya",
+  "admin_sites_desc": "Fida Dhugaa'iin Biyya-Oromiya danda'ina keessa.",
+  
+  "mayor_office": "Qofaa Xiqii Ta'uu Shashemene",
+  "admin_office": "Xiqii Administration Shashemene",
+  "land_office": "Xiqii Ardayyira Shashemene",
+  "woreda_office": "Xiqii Wereda",
+  "zone_office": "Xiqii Zone ba West Arsi",
+  
+  "locations_title": "Shashemene fi One (Qofaachuu)",
+  
+  "faq_title": "Fida Dubbii Biyyi Shashemene",
+  
+  "faq_where_location": "Fiddaa Koora?",
+  "faq_where_desc": "Shashemene keenyaa dubbiraa fi Oromiya Regioniin Ethiopia, Addis Ababa ba'ayyuu ta'e.keenyaa masa'alitti badhanamee fi jamii Rastafarii.",
+  
+  "faq_famous": "Fiddaa keenyaa?",
+  "faq_famous_desc": "Shashemene keenyaa jiraa fi jamii Rastafarii, bifaalan dukkuba masa'alaan keessaa keenyaa fi waliirii jiraa dhugaa'iyaa dhukkuba fi jiraa fi qabaa fi sulultaatii baa'siyaatii baa'siyaatii."
+  
+  "faq_best_places": "Fidduun Dubbii keen ba?"
+  "faq_best_places_desc": "Biyyi keenyaan keenyaan, qofaa keenyaan fi bifaalan dukkuba keenyaan fi waliirii jiraa fi qabaa fi jiraa ba'u. Sululutii ba'ayyuu fi qofaachuu ba'u fiyaatii fi koo."
+  
+  "faq_sole_forest": "Fidduun Kunle? Sole Natural Forest",
+  "faq_sole_forest_desc": "Sole Natural Forest keenyaan keenyaan dhugaa'i, bifaalan dukkuba keenyaan. Koorraa fi bariisuutti, afurutti, fi mar'uun keessaa keenyaa keenyaan qaba."
+  
+  "faq_where_stay": "Fidduun Jareensa?"
+  "faq_where_stay_desc": "Shashemene keenyaan jareensa keessa keenyaan fi jiraan. Biyyi jariin keenyaan qilleensa, fiyaankeenyaan, fiyaan keenyaan fiyaankeenyaan maqaafee keenyaan keenyaan xiqii keenyaan keenyaan kuun yeroo keenyaan xibbaatii keenyaan maqaafee keenyaan kuun yeroo.",
+  
+  "faq_culture_unique": "Fidduun Bifaalan Duukkuba keen?",
+  "faq_culture_unique_desc": "Shashemene keenyaa bifaalan dukkuba keenyaan kan Afaan Biiyiyaan fi jamii Rastafarii biifattaniina. Bifaalan dukkuba keenyaan keenyaan jiraa fi jiraan fi bifaalan, fi bifaalan keenyaan keenyaan jiraan fi jiraan keenyaan dhugaa'iina.",
+  
+  "faq_suitable_tourists": "Fidduun turistaan keen?",
+  "faq_suitable_tourists_desc": "Biyyi keenyaan keenyaan fidaatii dubbii dubbii qaba. Afaan keenyaan keenyaan keenyaan qaba, bifaalan qabaa keenyaan, fi safuun Jireensaa Biyyoota fiyaan keenyaan xifan akka keessaa.",
+  
+  "faq_discover_more": "Fidduun keenyaan keenyaan keenyaan?",
+  "faq_discover_more_desc": "Fidaatii fidaatii keenyaan keenyaan keenyaan qofaachaa, qofaa keenyaan, qofaa keenyaan, qofaa keenyaan fi xiqii keenyaan maqaafee keenyaan.",
+  
+  "newsletter_title": "Niuslita",
+  "newsletter_subscribe": "Dhahaa fi qaba dhugaa'i fi gurracha kan jechaan fi aada!",
+  
+  "contact_us": "Kontaktin",
+  "contact_email": "Lemmi: adugnahirpo4@gmail.com",
+  
+  "footer_copyright": "Copyright © 2026 Shashemene, Oromia, Ethiopia All Rights Reserved.",
+  "footer_developed": "Website developed by: Adugna Hirpo",
+  
+  "register": "Fidduun",
+  
+  "booking_title": "Fidduun fi Oromia Now",
+  "booking_first_name": "Lemmi Hawwal:",
+  "booking_last_name": "Lemmi Qillee:",
+  "booking_email": "Lemmi:",
+  "booking_phone": "Sorofaa Hawwal:",
+  "booking_check_in": "Fidduun Jiraa:",
+  "booking_check_out": "Fidduun Amma:",
+  "booking_accommodation": "Lemmi Biyyaa:",
+  "booking_room_number": "Sorofaa Biyyaa:",
+  "booking_room_type": "Lemmi Biyyaa:",
+  "booking_single": "Lemmi Hawwal",
+  "booking_double": "Lemmi Dhugaa",
+  "booking_triple": "Lemmi Roobaa",
+  "booking_quad": "Lemmi Roobaa Roobaa",
+  "booking_additional": "Xiqiiyyaa Keenyaa",
+  "booking_submit": "Fidduun",
+  
+  "faqs_faq": "FAQs - Fidduun Gosaatii Gosaatii",
+  "faq_where_is": "Fiddaa Koora?",
+  "faq_what_famous": "Fiddaa keenyaa?",
+  "faq_best_places_visit": "Fidduun Dubbii keen ba?",
+  "faq_sole_forest": "Fidduun Kunle? Sole Natural Forest",
+  "faq_where_stay_2": "Fidduun Jareensa?",
+  "faq_culture_unique_2": "Fidduun Bifaalan Duukkuba keen?",
+  "faq_suitable_tourists_2": "Fidduun turistaan keen?",
+  "faq_discover_more_2": "Fidduun keenyaan keenyaan keenyaan?",
+  
+  "about_title": "Fida Shashemene",
+  "about_description": "Fidaatii fidaatii website keenyaankeenyaan qofaachuu keenyaankeenyaan bifaalan dukkuba, qofaa keenyaan, qofaa keenyaan, qofaa keenyaan fiyaan keenyaan baa'siyaatii keenyaan fiyaan keenyaan.",
+  "about_strength": "Shashemene keenyaan keenyaan dubbiraan keenyaan keenyaan dhugaa'i, qofaa keenyaan keenyaan fi bifaalan keenyaan keenyaan masa'alaan keenyaan.",
+  "about_cultural_diversity": "Fiindalfankeenyaan keenyaan keenyaan keenyaan keenyaan.",
+  "about_ooroma_language": "Shashemene Oromiya keenyaan keenyaan Afaan Oromoo (Afaan Oromoo) keenyaan keenyaan keenyaan keenyaan keenyaan keenyaan.",
+  "about_info_challenge": "Fidaatii keenyaankeenyaan keenyaan keenyaan keenyaankeenyaan keenyaan fi ya'aan xiqii keenyaan keenyaan keenyaankeenyaan keenyaan. Xiqii keenyaankeenyaankeenyaankeenyaankeenyaankeenyaankeenyaankeenyaan keenyaankeenyaankeenyaankeenyaankeenyaankeenyaankeenyaankeenyaan.",
+  "about_vision": "Fidaatii keenyaankeenyaan keenyaankeenyaankeenyaankeenyaankeenyaankeenyaankeenyaankeenyaankeenyaankeenyaan keenyaankeenyaankeenyaankeenyaankeenyaankeenyaankeenyaankeenyaankeenyaankeenyaankeenyaankeenyaankeenyaankeenyaankeenyaankeenyaankeenyaankeenyaan.",
+  "about_developer": "Fidaatii keenyaankeenyaan keenyaankeenyaan keenyaankeenyaan keenyaankeenyaankeenyaankeenyaan keenyaankeenyaan keenyaankeenyaan.",
+  "about_thank_you": "Fidduun keenyaankeenyaankeenyaankeenyaankeenyaankeenyaankeenyaankeenyaan keenyaankeenyaankeenyaankeenyaankeenyaankeenyaankeenyaankeenyaan keenyaankeenyaankeenyaankeenyaankeenyaankeenyaankeenyaankeenyaankeenyaankeenyaan.",
+  
+  "connect_me": "Fidaatii!",
+  
+  "scroll_to_top": "Fidduun tikkan"
+}

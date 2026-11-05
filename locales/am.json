@@ -1,0 +1,133 @@
+{
+  "nav_home": "ቤተ ገቢ",
+  "nav_packages": "ሰሜንት",
+  "nav_locations": "ባህሪያና ባህሪያዎች",
+  "nav_about": "ትምህርት አቃግራቢዎች",
+  "nav_contact": "መጽሐፍ ቅዱስ",
+  "lang_english": "እንግሊት",
+  "lang_oromo": "አፋን ኦሮምሽ",
+  "lang_amharic": "አማርኛ",
+  
+  "hero_title": "ምልክቶች ሰርቶች ሰርተው ሰርተው ሰርተው ሰርተው ሰርተው ሰርተው ሰርተው",
+  "hero_subtitle": "ተደርጎ ተሰረሰረው ተለምታ ደርተኞች፣ የተገናኙ ብቻ ሁኔታዎች ተለምታ ደርተኞች ተለምታዎች፣ የተገናኙ ተቀብለውን ተጨማሪ ይቻላል። የሚል ሰርተው ሰርተው ሰርተው ሰርተው ሰርተው ሰርተው ሰርተው።",
+  
+  "services_title": "ለዚህ ተለይም ተስፋ ይቻላል።",
+  "service_flight": "ባቢስ ተስፋ፣ የተለይም ተስፋ",
+  "service_flight_desc": "መጽሑፍ ግንባር ገቢ፣ የተገናኙ ግንባር ተመለከቱ",
+  "service_food": "ጣም ተስፋ፣ የተገናኙ ተስፋ",
+  "service_food_desc": "ጥያቄዎች",
+  "service_travel": "ተስፋ ተስፋ፣ የተገናኙ ተስፋ",
+  "service_travel_desc": "ተቋማዊ ተስፋ ወደ ምልክቶች፣ ተቋማዊ ተስፋ ወደ ምልክቶች፣ የተገናኙ ተስፋ ወደ ምልክቶች።",
+  "service_hotel": "ሰምተን ተስፋ፣ የተገናኙ ተስፋ",
+  "service_hotel_desc": "ማግኘት፣ የተገናኙ ማግኘት።",
+  
+  "packages_title": "ሰሜንት",
+  "package_hotel_restaurants": "የሰምተነት ተስፋ፣ የጣምተነት፤ የገናባት፤",
+  
+  "jalo_hotel": "ሰምተን ገቢ Jalo",
+  "qaf_hotel": "ሰምተን ገቢ QAF",
+  "haile_hotel": "ሰምተን ገቢ Haile",
+  "grand_royal": "ሰምተን ገቢ Grand Royal",
+  "framont_hotel": "ሰምተን ገቢ Framont",
+  "zion_lodge": "ሰምተን ገቢ Zion Lodge",
+  "hamilton": "Hamilton",
+  "sena_bar": "ባሕሪ ሰምተን Sena Bar",
+  "tastosntina": "Tantostina",
+  
+  "ratings_title": "የሚል ተስፋ፤ ባህሪያና ባህሪያዎች",
+  "ratings_desc": "የተገናኙ ተስፋ፤ ባህሪያ፤ ተሞችና ተቋማዊ ሁኔታዎች ተጠቀም።",
+  
+  "rastafari_community": "ገቢ Rastafari",
+  "city_park": "ባህሪያ ተስፋ",
+  "banana_art_gallery": "ገንዘት ባህሪያ Bana Art Gallery",
+  "st_michael_church": "ገቢ ግርቂዎች St. Michael Church",
+  
+  "admin_sites_title": "🏛️ ባህሪያና ባህሪያዎች ባህሪያዎች። ኦሮሚኒኬም",
+  "admin_sites_desc": "የሰርተው ባህሪያና ባህሪያዎች ተለይም ተገናኙ ባህሪያዎች። የሰርተው ባህሪያና ባህሪያዎች ተለይም ተገናኙ ባህሪያዎች።",
+  
+  "mayor_office": "ባህሪያዎች ባህሪያና ባህሪያ ባህሪያ ባህሪያ ባህሪያዎች።",
+  "admin_office": "ባህሪያዎች ባህሪያዎች።",
+  "land_office": "ባህሪያዎች ባህሪያዎች።",
+  "woreda_office": "ባህሪያዎች ባህሪያዎች።",
+  "zone_office": "ባህሪያዎች ባህሪያዎች ባህሪያዎች ባህሪያዎች።",
+  
+  "locations_title": "ሰርተው ባህሪያዎች። ሰርተው ባህሪያዎች።",
+  
+  "faq_title": "የሚል ተስፋ፤ ባህሪያና ባህሪያዎች",
+  
+  "faq_where_location": "በክፍል ሰርተው የሚያስተላለፍ፣ የተገናኙ ተስፋ፤ የተገናኙ ተስፋ፤ የተገናኙ ተስፋ።",
+  "faq_where_desc": "ሰርተው ባህሪያና ባህሪያና በኢትዮጵያ ሰርተው ባህሪያና በኢትዮጵያ ባህሪያና በኢትዮጵያ ባህሪያዎች። ሰርተው ባህሪያና በኢትዮጵያ ሰርተው ባህሪያና በኢትዮጵያ ባህሪያዎች።",
+  
+  "faq_famous": "የሚል ተስፋ፤ ባህሪያና ባህሪያዎች",
+  "faq_famous_desc": "ሰርተው ባህሪያና በኢትዮጵያ ባህሪያና በኢትዮጵያ ባህሪያዎች። ሰርተው ባህሪያና በኢትዮጵያ ባህሪያዎች።",
+  
+  "faq_best_places": "የሚል ተስፋ፤ ባህሪያና ባህሪያዎች",
+  "faq_best_places_desc": "የሚል ተስፋ፤ ባህሪያና ባህሪያዎች።",
+  
+  "faq_sole_forest": "የሚል ተስፋ፤ ባህሪያና ባህሪያዎች",
+  "faq_sole_forest_desc": "ሰርተው ባህሪያና በኢትዮጵያ ባህሪያና በኢትዮጵያ ባህሪያዎች።",
+  
+  "faq_where_stay": "የሚል ተስፋ፤ ባህሪያና ባህሪያዎች",
+  "faq_where_stay_desc": "ሰርተው ባህሪያና በኢትዮጵያ ባህሪያና በኢትዮጵያ ባህሪያዎች።",
+  
+  "faq_culture_unique": "የሚል ተስፋ፤ ባህሪያና ባህሪያዎች",
+  "faq_culture_unique_desc": "ሰርተው ባህሪያና በኢትዮጵያ ባህሪያና በኢትዮጵያ ባህሪያዎች።",
+  
+  "faq_suitable_tourists": "የሚል ተስፋ፤ ባህሪያና ባህሪያዎች",
+  "faq_suitable_tourists_desc": "ሰርተው ባህሪያና በኢትዮጵያ ባህሪያና በኢትዮጵያ ባህሪያዎች።",
+  
+  "faq_discover_more": "የሚል ተስፋ፤ ባህሪያና ባህሪያዎች",
+  "faq_discover_more_desc": "ሰርተው ባህሪያና በኢትዮጵያ ባህሪያና በኢትዮጵያ ባህሪያዎች።",
+  
+  "newsletter_title": "ኢትዮጵያ ክፍል፤ ኢትዮጵያ ክፍል፤ ኢትዮጵያ ክፍል፤ ኢትዮጵያ ክፍል።",
+  "newsletter_subscribe": "ኢትዮጵያ፣ ለሚደርሰው ሰብአትን፣ ይህ ተለይምና ተስፋ ተለይምና እንደ ጥቅሽ ይቻላል።",
+  
+  "contact_us": "መጽሐፍ ቅዱስ",
+  "contact_email": "ኢምነት: adugnahirpo4@gmail.com",
+  
+  "footer_copyright": "Copyright © 2026 Shashemene, Oromia, Ethiopia All Rights Reserved.",
+  "footer_developed": "Website developed by: Adugna Hirpo",
+  
+  "register": "ሰርተው ባህሪያና ባህሪያዎች።",
+  
+  "booking_title": "ለዚህ ተስፋ ይቻላል።",
+  "booking_first_name": "ሞተተር ሰምተን:",
+  "booking_last_name": "ሰምተን ምርቶች:",
+  "booking_email": "ኢምነት:",
+  "booking_phone": "ሞተተር ሰምተን:",
+  "booking_check_in": "ቀዳሜ ቀን:",
+  "booking_check_out": "ቀዳሜ ቀን:",
+  "booking_accommodation": "ሰምተን ተስፋ:",
+  "booking_room_number": "ሰምተን ምርቶች:",
+  "booking_room_type": "ሰምተን ተስፋ፤",
+  "booking_single": "ሰምተን ሰምተን",
+  "booking_double": "ሰምተን ሰምተን",
+  "booking_triple": "ሰምተን ሰምተን",
+  "booking_quad": "ሰምተን ሰምተን",
+  "booking_additional": "ተለይም ተስፋ፤",
+  "booking_submit": "ይቻላል።",
+  
+  "faqs_faq": "FAQs - የሚል ተስፋ፤ ባህሪያና ባህሪያዎች",
+  "faq_where_is": "በክፍል ሰርተው የሚያስተላለፍ፣ የተገናኙ ተስፋ፤ የተገናኙ ተስፋ፤ የተገናኙ ተስፋ።",
+  "faq_what_famous": "የሚል ተስፋ፤ ባህሪያና ባህሪያዎች",
+  "faq_best_places_visit": "የሚል ተስፋ፤ ባህሪያና ባህሪያዎች",
+  "faq_sole_forest": "የሚል ተስፋ፤ ባህሪያና ባህሪያዎች",
+  "faq_where_stay_2": "የሚል ተስፋ፤ ባህሪያና ባህሪያዎች",
+  "faq_culture_unique_2": "የሚል ተስፋ፤ ባህሪያና ባህሪያዎች",
+  "faq_suitable_tourists_2": "የሚል ተስፋ፤ ባህሪያና ባህሪያዎች",
+  "faq_discover_more_2": "የሚል ተስፋ፤ ባህሪያና ባህሪያዎች",
+  
+  "about_title": "ሰርተው ባህሪያና ባህሪያዎች።",
+  "about_description": "ሰርተው ተህብትህን የሚያደረግ ተለፍቶች፣ ተለፍቶች ተለፍቶች ተለፍቶች፤ ተለፍቶች፤ ተለፍቶች፤ ተለፍቶች፤ ተለፍቶች፤ ተለፍቶች።",
+  "about_strength": "ሰርተው ባህሪያና በኢትዮጵያ ባህሪያና በኢትዮጵያ ባህሪያዎች።",
+  "about_cultural_diversity": "ሰርተው ባህሪያና በኢትዮጵያ ባህሪያና በኢትዮጵያ ባህሪያዎች።",
+  "about_ooroma_language": "ሰርተው ባህሪያና በኢትዮጵያ ባህሪያና በኢትዮጵያ ባህሪያዎች።",
+  "about_info_challenge": "ሰርተው ተህብቱህን የሚያደረግ ተለፍቶች፣ ተለፍቶች፤ ተለፍቶች፤ ተለፍቶች፤ ተለፍቶች፤ ተለፍቶች፤ ተለፍቶች፤ ተለፍቶች።",
+  "about_vision": "ሰርተው ተህብቱህን የሚያደረግ ተለፍቶች፤ ተለፍቶች፤ ተለፍቶች፤ ተለፍቶች፤ ተለፍቶች፤ ተለፍቶች፤ ተለፍቶች።",
+  "about_developer": "ሰርተው ተህብቱህን የሚያደረግ ተለፍቶች፤ ተለፍቶች፤ ተለፍቶች፤ ተለፍቶች፤ ተለፍቶች፤ ተለፍቶች፤ ተለፍቶች።",
+  "about_thank_you": "ሰርተው ተህብቱህን የሚያደረግ ተለፍቶች፤ ተለፍቶች፤ ተለፍቶች፤ ተለፍቶች፤ ተለፍቶች፤ ተለፍቶች፤ ተለፍቶች።",
+  
+  "connect_me": "ለዚህ ተስፋ ይቻላል።",
+  
+  "scroll_to_top": "የደረተ ተለፍቶች።"
+}

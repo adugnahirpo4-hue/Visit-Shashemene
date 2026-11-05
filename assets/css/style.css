@@ -108,6 +108,33 @@ nav ul li {
   transition: color 0.25s ease, background-color 0.25s ease, box-shadow 0.25s ease, transform 0.25s ease;
 }
 
+.language-switcher {
+  display: flex;
+  gap: 8px;
+  margin-left: 15px;
+}
+
+.lang-btn {
+  padding: 6px 12px;
+  border: 1px solid #e87522;
+  background: white;
+  color: #e87522;
+  border-radius: 4px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.lang-btn:hover {
+  background: #e87522;
+  color: white;
+}
+
+.lang-btn.active {
+  background: #e87522;
+  color: white;
+}
+
 .navbar a:hover,
 .navbar a:focus-visible {
   color: #fff;
