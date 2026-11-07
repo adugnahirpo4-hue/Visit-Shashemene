@@ -316,6 +316,31 @@ nav ul li a {
   gap: 15px;
 }
 
+.package2-content {
+  flex-wrap: wrap;
+}
+
+.package2-content > .text-block {
+  position: static;
+  flex: 0 0 100%;
+  margin: 0;
+}
+
+.package2-content > a,
+.package2-content > .box {
+  flex: 1 1 150px;
+  min-width: 0;
+}
+
+.package2-content .image {
+  margin-top: 0;
+}
+
+.package2-content > .package2-explore {
+  flex: 0 0 100%;
+  text-align: center;
+}
+
 .pack4-content {
   background-color: #fdf5f5;
   border-radius: 5px;
